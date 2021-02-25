@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+	width: 0;
+}
+body{
+	background: #000;
+	color: #ccc;
+	padding: 100px;
+}
+h1,h3{
+	color: #fff;
+}
+h3{
+	text-align: center;
+}
+.card1,
+.card2,
+.card3{
+	border: 3px solid #fff;
+	text-align: center;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 30px;
+}
+h4{
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+.card-ul-1 .conclusion1,
+.card-ul-2 .conclusion2,
+.card-ul-3 .conclusion3{
+	padding-bottom: 30px;
+}
+.links{
+	margin: auto;
+	margin: 40px;
+}
+.link{
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin: 15px;
+	transition: .5s;
+}
+.link:hover{
+	color: #000;
+	background:#fff;
+}
